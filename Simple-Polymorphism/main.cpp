@@ -6,7 +6,7 @@ class Animal
 public:
     virtual void makeSound() const = 0;
 
-    virtual ~Animal() {};
+    virtual ~Animal() = default;
 };
 
 class Cat : public Animal 
