@@ -47,7 +47,7 @@ int main()
 
     for (size_t i = 0; i < 3; i++)
     {
-        animals[i]->makeSound();
+        animals[i]->makeSound(); //Will Print Meow Bark Cluck
         cout << " ";
     }
 
